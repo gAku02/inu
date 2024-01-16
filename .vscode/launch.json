@@ -4,15 +4,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'bevy_project'",
+            "name": "Debug executable 'inu'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=bevy_project",
-                    "--package=bevy_project"
+                    "--bin=inu",
+                    "--package=inu"
                 ],
                 "filter": {
-                    "name": "bevy_project",
+                    "name": "inu",
                     "kind": "bin"
                 }
             },
